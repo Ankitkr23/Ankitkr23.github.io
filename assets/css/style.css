@@ -210,7 +210,7 @@ strong { color: var(--text); font-weight: 600; }
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 1.75rem; box-shadow: var(--shadow-sm); position: sticky; top: 100px;
 }
-.about-photo { width: 168px; height: 168px; border-radius: 50%; margin: 0 auto 1.5rem; box-shadow: 0 0 0 6px var(--amber-soft), var(--shadow); }
+.about-photo { width: 168px; height: 168px; border-radius: 50%; object-fit: cover; margin: 0 auto 1.5rem; box-shadow: 0 0 0 6px var(--accent-soft), var(--shadow); }
 .facts { margin: 0; display: grid; gap: 0; }
 .facts div { display: flex; justify-content: space-between; gap: 1rem; padding: .7rem 0; border-top: 1px dashed var(--border); font-size: .9rem; }
 .facts dt { color: var(--muted); }
